@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pic{
+    height: 21vh;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+.p{
+    font-size: 15px;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.p2{
+    font-size: 12px;
+    width: 20vw;
+    text-align: center;
+    color: gray;
+}
+.p3{
+    font-size: 12px;
+}
+.usd{
+    font-size: 11px;
+}
+.p5{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.p6{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.p7{
+    font-size: 12px;
+    text-decoration: underline;
+    color: blue;
+}
+.p8{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    gap: 40px;
+}
+.p9{
+    border: none;
+    background-color: blue;
+    box-shadow: 5px 5px 5px rgb(234, 234, 248);
+    box-shadow: 5px 5px 4px rgb(226, 226, 250);
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+    height: 5vh;
+    width: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p10{
+    font-size: 11px;
+    cursor: pointer;
+}
+.both{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.bg{
+    background-color: white;
+    height: 73vh;
+    width: 20vw;
+    border-radius: 35px;
+}
+.bg1{
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px aliceblue;
+    width: 18vw;
+    height: 10vh;
+}
+.prices{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10vw;
+}
+.m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.eror-price{
+    font-size: 11px;
+    color: darkgreen;
+    display: none;
+}
+.eror{
+    font-size: 11px;
+    color: red;
+    display: none;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    height: 4vh;
+    width: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 5px 5px 4px rgb(226, 226, 250);
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.m2{
+    background-color: whitesmoke;
+    width: 17vw;
+    box-shadow: 5px 5px 5px;
+    height: 28vh;
+}
+.both1{
+    display: flex;
+}
+.toast{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19vw;
+    height: 79vh;
+    scale: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+.pic1{
+    height: 77vh;
+    width: 22vw;
+}
+.jet{
+    display: flex;
+}
+.jet1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22vw;
+    height: 77vh;
+}
+.b{
+    height: 74vh;
+    width: 21vw;
+    border-radius: 35px;
+}
+.b1{
+    display: flex;
+}
+.jet3{
+    display: flex;
+}
+.b2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34vw;
+    height: 142vh;
+}
+.b3{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22vw;
+    height: 77vh;
+    scale: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width:950px) {
+    .pic1{
+        display: none;
+    }
+    .both1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .jet1{
+        position: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 22vw;
+        height: 77vh;
+    }
+    .b{
+        display: none;
+    }
+    .bg{
+        background-color: white;
+        height: 80vh;
+        width: 95vw;
+        box-shadow: 1px 1px 10px;
+        border-radius: 35px;
+    }
+    .p9{
+        height: 6vh;
+        width: 80vw;
+        font-size: 20px;
+        box-shadow: 5px 5px 5px rgb(168, 168, 207);
+    }
+    .bg1{
+        background-color: aliceblue;
+        box-shadow: 5px 5px 5px rgb(201, 207, 212);
+        width: 80vw;
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .m2{
+        background-color: whitesmoke;
+        width: 100vw;
+        box-shadow: 5px 5px 5px;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .toast{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+        height: 9vh;
+        scale: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .btn{
+        width: 20vw;
+        font-size: 20px;
+    }
+    .prices{
+        width: 50vw;
+        height: 6vh;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .m{
+        gap: 30px;
+    }
+    .p{
+        font-size: 25px;
+    }
+    .p2{
+        font-size: 20px;
+        width: 90vw;
+    }
+    .p10{
+        font-size: 20px;
+    }
+    .ol{
+        height: 7vh;
+    }
+    .p3{
+        font-size: 16px;
+    }
+    .usd{
+        font-size: 15px;
+    }
+    .p7{
+        font-size: 19px;
+    }
+    .both{
+        gap: 40px;
+    }
+    .pic{
+        width: 380px;
+    }
+}
